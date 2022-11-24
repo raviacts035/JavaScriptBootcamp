@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Experiments</title>
+</head>
+<body>
+    <section align="center">
+        <h2>Video with NoDownload,muted,autoplay,controls restriction</h2>
+          
+          <a href="./random1.mp4"
+          ><video
+            nodownload
+            controls
+            width="400"
+            src="./random1.mp4"
+          ></video>
+        </a>
+      </section>
+      <section align="center">
+        <h2>Video without NoDownload,muted,autoplay,controls restriction</h2>
+        <video width="400" controls muted preload="auto">
+          <source id="2" src="./random1.mp4" type="video/mp4">
+        </video>
+      </section>
+</body>
+</html>

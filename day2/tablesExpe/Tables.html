@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Simple table</title>
+    <link href="minimal-table.css" rel="stylesheet" type="text/css" />
+  </head>
+  <!-- style="background-color: rgb(101, 120, 131)" -->
+  <body style="background-color:pink ;">
+    <h1>Simple table</h1>
+
+    <table border="2">
+      <colgroup>
+      <col style="background-color:rgb(163, 217, 243)" span="4">
+    </colgroup>
+      <thead>
+        <tr style="background-color:rgb(243, 89, 81)">
+          <td width="100" >&nbsp;</td>
+          <th width="80">name</th>
+          <th rowspan="3" width="80">age</th>
+          <th width="100">SpecialistItem</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Sunday</th>
+          <td>Roshan</td>
+          <td>18</td>
+          <td rowspan="2">DumBiryani</td>
+        </tr>
+        <tr>
+          <th>Monday</th>
+          <td>Madhav</td>
+          <!-- <td>pongal</td> -->
+          <td>20</td>
+        </tr>
+        <tr>
+          <th>Tuesday</th>
+          <td>ram
+          </td>
+          <td>27</td>
+          <td>Chines spcl Cocroach fry</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Wendsday</th>
+          <td>kohli</td>
+          <td >21</td>
+          <td >FrogFry</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
