@@ -1,2 +1,3 @@
 # JavaScriptBootcamp
-Experiments and projects did at the time of BootCamp Ineuron
+All my projects and Practices during the FullStack JavaScript BootCamp 2.0 at INeuron <3,
+with my favourite tutor Hitesh Choudhary and Team.
