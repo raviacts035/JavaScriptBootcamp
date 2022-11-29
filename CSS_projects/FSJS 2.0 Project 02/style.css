@@ -1,0 +1,97 @@
+/* You can't change the html code */
+/* navigation bar */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    color:#ffffff;
+    font-family: montserrat;
+}
+.body{
+    /* height: 100%; */
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    padding: 10px 60px;
+    align-items: center;
+    font-size: 14px;
+}
+.container > section:nth-child(1){
+    position: sticky;
+    top: 0px;
+}
+section nav div:nth-child(1){
+    height: 30px;
+    /* border: 2px solid red; */
+}
+.logo{
+    height: 100%;
+    width: 100%;
+}
+.line{
+    height: 40px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: #ffff;
+    margin: 0px 4rem;
+}
+.grow-list{
+    flex: 1;
+}
+.list{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+}
+.list-item{
+    cursor: pointer;
+}
+/* Defaults to all buttons */
+button{
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(214, 5, 214);
+    color: #ffffff;
+}
+.button-small{
+    padding: 10px 20px;
+}
+/* hero section */
+/* start */
+.container > section:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    background-image: url(./assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 95vh;
+    align-items: center;
+    justify-content: center;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.hero-heading{
+    font-size: 5rem;
+    padding: 0px 20%;
+}
+.hero-description{
+    font-size: 1.25rem;
+    padding-bottom: 40px;
+}
+.button-large{
+    margin: 1.5rem 0.25px;
+    padding: 20px 20px;
+    font-size: 1.25rem;
+}
