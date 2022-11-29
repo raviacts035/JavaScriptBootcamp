@@ -1,0 +1,92 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 98vw;
+    /* border: 2px solid red; */
+}
+.container{
+    font-family: poppins;
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+.navbar-container{
+    display: flex;
+    margin-right: inherit;
+    padding-right: 100px;
+    align-items: center;
+    font-size: 14px;
+    padding-top: 50px;
+}
+.navbar-container>div:nth-child(1){
+    height: 30px;
+    padding-right: 50px;
+}
+ul{
+    list-style: none;
+}
+.grow-list{
+    flex-grow: 1;
+}
+.list{
+    display: flex;
+    gap: 50px;
+    color: lightslategray;
+}
+.navbar-container>div > img{
+    height: 100%;
+}
+.list > .list-item:nth-child(1){
+    color: #0d0d0d;
+}
+button{
+    background-color:#5574d8;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.nav-button{
+    padding: 10px 40px;
+}
+/* Banner section */
+.banner-container{
+display: flex;
+width: 90vw;
+padding-top: 50px;
+padding-bottom: 100px;
+align-items: center;
+/* border: 2px solid #8b0eea; */
+}
+.banner-container > div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    /* border: 2px solid rgb(11, 9, 12); */
+    align-items: center;
+}
+.banner-container div:nth-child(2){
+    margin-right: inherit;
+    flex-basis: 60%;
+    /* border: 2px solid #0d0d0d; */
+}
+span{
+    color: blue;
+}
+.heading-text{
+    font-size: 60px;
+    padding-bottom: 20px;
+    flex-shrink: 1;
+}
+.description{
+    font-size: 14px;
+    max-width: 500px;
+    color: lightslategray;
+    padding-bottom: 50px;
+}
+.btn{
+    font-size: 14px;
+    padding: 1.25rem 2.75rem;
+}
