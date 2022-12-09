@@ -4,5 +4,5 @@ with my favourite tutor Hitesh Choudhary and Team.
 
 Asseignment Files:
 day2 -> HTML experemint files on different tags while learning.
-CSS  -> 3 CSS projects
+CSS_projects  -> 3 CSS projects
 HTMLandCSS -> 3 HTML and CSS projects
