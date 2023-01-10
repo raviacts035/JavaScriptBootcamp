@@ -1,0 +1,47 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+body{
+    padding: 0px 100px;
+    background-color: lightgrey;
+}
+.Catagory, .header, .footer{
+    position: sticky;
+    height: 30px;
+}
+article{
+    margin: 100px 0px;
+    border: 2px solid black;
+}
+p{
+    background-color: black;
+    color: white;
+}
+.Catagory{
+    background-color: green;
+    border: 2px solid blue;
+    text-align: center;
+    top: 0px;
+}
+.header{
+    border: 2px solid black;
+    background-color: rosybrown;
+    top: 0px;
+}
+.footer{
+    background-color: red;
+    margin: 40px;
+    bottom: 100px;
+    font-size: large;
+    z-index: -1;
+}
+.EmptyBlocks{
+    background-color: rgb(135, 195, 219);
+    height: 200px;
+}
+.EmptyBlocks, article{
+    width: 80vw;
+    max-width: 1000px;
+    margin: 40px auto;
+}
