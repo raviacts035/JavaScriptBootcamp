@@ -1,0 +1,145 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-family: Orbitron;
+}
+body{
+    padding: 40px 80px;
+    min-width: 1350px;
+}
+/* Navigation bar design */
+.navbar-container{
+    flex-basis: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.10rem;
+}
+.navbar-container img{
+    height: 34px;
+}
+.list{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    /* font-size: 1.30rem; */
+}
+.list li:nth-child(1){
+    text-decoration-line: underline;
+}
+.button-group{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+svg{
+    height: 25px;
+    padding-top: 5px;
+}
+.nav-button{
+    padding: 5px 40px;
+    background-color: #fff;
+}
+/* body part starts */
+.hero-container{
+    padding-top: 60px;
+    display: flex;
+}
+.hero-container img{
+    height: 100%;
+}
+.square{
+    position: absolute;
+    max-width: 420px;
+    left: 18rem;
+    top: 480px;
+    z-index: -1;
+}
+.square img{
+    max-width: 500px;
+}
+.star:nth-child(2){
+    position: absolute;
+    /* border: 2px solid red; */
+    top: 25%;
+    right: 5%;
+    height: 40px;
+}
+.star:nth-child(3){
+    height: 30px;
+    position: absolute;
+    top: 800px;
+    left: 780px;
+}
+.globe{
+    position: absolute;
+    top: 17%;
+    left: 52%;
+    /* border: 2px solid red; */
+    height: 4rem;
+}
+.globe +div img{
+    max-width: 550px;
+}
+.hero-container div:nth-child(1){
+    height: 60px;
+    /* border: 2px solid red; */
+}
+.hero-container-right{
+    display: flex;
+    margin-top: 6.5rem;
+    margin-left: 80px;
+    /* border: 2px solid red; */
+    flex-direction: column;
+    align-items: center;
+}
+.hero-heading{
+    /* border: 2px solid red; */
+    font-size: 3.3rem;
+}
+.hero-description{
+    padding: 60px 40px;
+    margin-top: 40px;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+.hero-description + div{
+    /* border: 2px solid red; */
+    margin: 80px 0px;
+}
+button{
+    border-radius: 8px;
+    padding: 0 10px;
+}
+.button-email{
+    font-size: 1.30rem;
+    padding: 0 40px;
+    background-color: #fff;
+}
+.button-join{
+    font-size: 1.30rem;
+    color: #fff;
+    background-color: black;
+}
+.contact-heading{
+    position: relative;
+    top: 60px;
+    /* right: 15px; */
+    font-size: 1.30rem;
+    padding: 15px 40px;
+}
+.icons{
+    /* border: 2px solid black; */
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 60px;
+    right: -20px;
+    height: 30px;
+}
+.icons span img{
+    height: 100%;
+    width: 100%;
+}
