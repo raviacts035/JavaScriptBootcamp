@@ -1,1 +1,1 @@
-"# VS code Clone tailwind" 
+# VS code Clone tailwind
