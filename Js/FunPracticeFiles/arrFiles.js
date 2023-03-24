@@ -14,13 +14,20 @@ console.log(fru)
 // console.log(fru);
 
 // Concat - attachesh one array at the end of another array, while printing
-console.log(fru.concat([1,2,3,76]));
+// console.log(fru.concat([1,2,3,76]));
 
 // fill
 // include(7,6) - checks wheather 6th index value is 7 or not. returns Boolean
 // indexOf("apple") - Returns the index value of given element.
 // Array.isArray(fru) -- checks weather passed variable is of type ARRAY or not.
-// .join(" ") -- combines all the elements of array into a single string with  
+// .join(" ") -- combines all the elements with passed string b/w them
+// keys - 
+// .map(arr.method) - map iterates on every element of arr and the method is applied
+// .reverse - 
+
+
+
+
 
 
 // 
