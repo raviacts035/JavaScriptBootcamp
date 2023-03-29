@@ -26,8 +26,8 @@ while(1==1){
     if(op=='q'){
         break;
     }
-    let Num1 =prompt("Enter 1st number : ");
-    let Num2=prompt("Enter 2nd number : ");
+    let Num1 =Number(prompt("Enter 1st number : "));
+    let Num2=Number(prompt("Enter 2nd number : "));
     if (op==1){
         sum(Num1,Num2);
     }
