@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DOM | Circles Project</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            width: 100%;
+            height: 100%;
+            background-color: slategray;
+            margin: auto;
+            border: 5px solid blueviolet;
+        }
+        h2{
+            padding-top: 2px;
+            padding-bottom: 2px;
+            text-align: center;
+            background-color: lightsalmon;
+        }
+        .spots{
+            height: 1px;
+            width: 1px;
+            padding: 10px;
+            opacity: 0%;
+            background-color: red;
+            border-radius: 50%;
+            animation: 2s 1 slowFade;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+        @keyframes slowFade {
+            from
+            {
+                scale: 0.5;
+                opacity: 100%;
+            }
+            to
+            {
+                scale: 20;
+                opacity: 0%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <script>
+        function updt(event){
+            var element=document.createElement("div");
+            element.classList="spots";
+            // var colArr=['red','blue','green','yellow','orange','white','black'];
+            element.style.left=event.pageX+"px";
+            element.style.top=event.pageY+"px";
+            document.body.appendChild(element);
+            //after some time Delay elements will get cleaned 
+            setTimeout(()=>{document.body.removeChild(element);},3000);
+        }
+        document.addEventListener("click",updt);
+    </script>
+    <nav>
+        <h2>Click anaywhere on screen</h2>
+    </nav>
+</body>
+</html>
