@@ -10,15 +10,12 @@
         body{
             width: 100%;
             height: 100%;
-            background-color: slategray;
+            background-color: black;
             margin: auto;
-            border: 5px solid blueviolet;
         }
-        h2{
-            padding-top: 2px;
-            padding-bottom: 2px;
+        h4{
             text-align: center;
-            background-color: lightsalmon;
+            background-color: slategray;
         }
         .spots{
             height: 1px;
@@ -27,10 +24,21 @@
             opacity: 0%;
             background-color: red;
             border-radius: 50%;
-            animation: 2s 1 slowFade;
+            animation: 3s 1 slowFade;
             position: absolute;
             left: 0px;
             top: 0px;
+        }
+        nav{
+            height: 20px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            background-color: rgb(245, 174, 75);
+            border: 3px solid rgb(28, 27, 29);
+        }
+        ul{
+            display: flex;
+            justify-content: space-around;
         }
         @keyframes slowFade {
             from
@@ -40,18 +48,28 @@
             }
             to
             {
-                scale: 20;
+                scale: 25;
                 opacity: 0%;
             }
         }
     </style>
 </head>
 <body>
+    <nav>
+        <ul>
+            <h3>Raviacts035</h3>
+            <a href="https://medium.com/@ravindrainturi035">My Blogs</a>
+            <a href="https://github.com/raviacts035">GitHub</a>
+            <a href="https://www.linkedin.com/in/raveendra-inturi-99052a252/">LinkedIn</a>
+        </ul>
+    </nav>
+    <h4>Click anaywhere on screen</h4>
     <script>
         function updt(event){
             var element=document.createElement("div");
             element.classList="spots";
-            // var colArr=['red','blue','green','yellow','orange','white','black'];
+            var colArr=['red','blue','green','yellow','orange','white','violet'];
+            element.style.backgroundColor=colArr[Math.floor(Math.random()*colArr.length)];
             element.style.left=event.pageX+"px";
             element.style.top=event.pageY+"px";
             document.body.appendChild(element);
@@ -60,8 +78,5 @@
         }
         document.addEventListener("click",updt);
     </script>
-    <nav>
-        <h2>Click anaywhere on screen</h2>
-    </nav>
 </body>
 </html>
