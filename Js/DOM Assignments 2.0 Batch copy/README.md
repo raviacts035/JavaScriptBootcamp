@@ -73,3 +73,29 @@ for (x of [...document.querySelectorAll(".stat-value")]){
 document.querySelector(".clash-card__level--archer+div").innerText="The Archer"
 
 document.querySelector(".clash-card__level--goblin+div").innerText="The Goblin"
+
+## 5. Fifth_Asseignment
+> 1.Task_solution
+
+// pro subscription Button  
+
+var tmpBtn=document.createElement("a")\
+tmpBtn.innerText="Pro Subscription" \
+tmpBtn.className="btn"\
+tmpBtn.href="index.html"\
+var tmpDiv=document.createElement('div')\
+tmpDiv.appendChild(tmpBtn)\
+document.querySelector('.nav-center').appendChild(tmpDiv)
+
+var tmpA=document.createElement("a")\
+tmpA.innerText="Chinese (7)"\
+tmpA.href='#'\
+document.querySelector(".text-r+div").appendChild(tmpA)
+
+document.querySelector(".page-footer p a").innerText="Raveendra Inturi"
+
+document.querySelector(".recipe-gallery").appendChild(document.querySelector(".card").cloneNode())\
+document.querySelector(".card:nth-child(6)").appendChild(document.createElement("h3"))\
+document.querySelector(".card:nth-child(6) h3").innerText="add 6th card here"
+
+document.querySelectorAll(".recipe-text").forEach((ele)=>{ele.style.color="blue"})
