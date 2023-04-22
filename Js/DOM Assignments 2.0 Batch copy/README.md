@@ -1,6 +1,9 @@
 # DOM Manipulation Assignments 2.0 Batch-Solutions
 ## This README.md is solutions for all 9-DOM problems/projects given... 
 ## 01_DOM_Project
+
+##### Note : Don't read RAW README.md file, codes won't work.
+
 > 1.1 Task-Solution
 
 const navEle=document.createElement("li")\
@@ -33,7 +36,8 @@ btnDiv.appendChild(btn);
 > 2.1 Task-Solution
 
 document.querySelectorAll(".accordian p")[2].style.display="block";\
-document.querySelectorAll(".accordian p")[3].style.display="block"; \
+document.querySelectorAll(".accordian p")[3].style.display="block"; 
+
 > 2.2 Task-Solution
 
 let copyP=document.querySelector(".accordian p").cloneNode() \
@@ -140,8 +144,21 @@ document.querySelector(".new").style.border="4px solid orange"\
 var tmpH=document.createElement("h2")\
 tmpH.className="new-head"\
 tmpH.innerText='This is my custom Heading'\
-document.querySelector(".new").appendChild(tmpH)\
+document.querySelector(".new").appendChild(tmpH)
 
 > 8.2 Task_solution
 
-document.querySelector();
+document.querySelector("main").style.backgroundColor="white" \
+// unable to access stylesheet from browser to modify "body" baground. so, just applied white baground color to main Element, which is just child of body.
+
+> 8.3 Task_solution
+
+document.querySelector(".navbar-toggler").addEventListener("click",(event)=>{document.querySelector("#navbarTogglerDemo01").style.display="block";})
+
+//after exicuting click on toggle button
+
+## 09_DOM_Project
+> 9.1 Task_solution
+
+document.querySelector("h1.title").style.color="red"
+document.querySelector("button.add-to-cart").style.backgroundColor="red"
